@@ -12,7 +12,7 @@
 }
 
 .child-div {
-  margin: 3%;
+  margin: 3% 0 0 0;
   border: 2px solid yellow;
   border-radius: 25px;
   width: 500px;
@@ -54,7 +54,10 @@
 .eachItem {
   border: 2px solid #18b83bc7;
   background-color: #eee8aa;
+  color: #240808;
   border-radius: 5px;
+  padding: 2% 0 2% 0;
+  font-weight: bold;
 }
 .removeBtn {
   color: #0ddbc0d2;
