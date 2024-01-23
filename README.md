@@ -13,11 +13,10 @@ Steps to deploy using surge:
 
 1. npm install -g surge
 2. npm run build
-3. cd build
-4. surge
-5. provide path and press enter
-6. modify url and press enter, you will get domain name(your-url.surge.sh)
+3. surge
+4. provide path\build and press enter
+5. modify url and press enter, you will get domain name(your-url.surge.sh)
 
 ### Project link
 
-https://woozy-sheet.surge.sh/
+https://to_do_planner.surge.sh/
