@@ -9,6 +9,8 @@
   height: 100vh;
   background-color: #4e064e;
   justify-content: center;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .child-div {
@@ -16,6 +18,7 @@
   border: 2px solid yellow;
   border-radius: 25px;
   width: 500px;
+  height: inherit;
 }
 .main-head {
   text-align: center;
@@ -58,10 +61,12 @@
   border-radius: 5px;
   padding: 2% 0 2% 0;
   font-weight: bold;
+  word-wrap: break-word;
 }
 .removeBtn {
   color: #0ddbc0d2;
   font-weight: bold;
+  height: 6vh;
 }
 .removeBtn:hover {
   color: #000000;
@@ -70,9 +75,11 @@
 }
 .removeAllBtn {
   display: block;
-  color: #ec600f;
+  color: #c5da0a;
+  background-color: #0e31ce;
   margin: 15px auto;
   padding: 10px;
+  border: 2px solid #39c8db;
   border-radius: 15px;
   font-weight: bold;
 }
