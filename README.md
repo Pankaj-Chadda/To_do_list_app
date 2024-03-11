@@ -19,4 +19,4 @@ Steps to deploy using surge:
 
 ### Project link
 
-https://to_do_planner.surge.sh/
+https://bustling-yak.surge.sh/
